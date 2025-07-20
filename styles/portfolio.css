@@ -102,7 +102,7 @@ main {
     left: auto;
     color: #252432;
     margin-top: 23px;
-    text align: left;
+    text-align: left;
 
 
 }
@@ -157,4 +157,54 @@ main {
     font-size: 20px;
     color: #252432;
     margin-top: 10px;
+}
+
+/*user reviews section*/
+
+
+.reviews-title {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 24px;
+
+
+
+}
+
+
+.reviews-item {
+    background-color: rgb(239, 239, 251);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.designer {
+    font-family: Ag heading, sans-serif;
+    font-weight: bold;
+    color: #1E1E1E;
+    font-size: 30px;
+}
+
+.description {
+    font-family: Ag Body Base, sans-serif;
+    color: #1E1E1E;
+}
+
+.reviewer-info {
+    display: flex;
+    gap: 10px;
+}
+
+.reviewer {
+    font-family: Ag, sans-serif;
+    font-weight: bold;
 }
