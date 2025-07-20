@@ -208,3 +208,52 @@ main {
     font-family: Ag, sans-serif;
     font-weight: bold;
 }
+
+/*focus section*/
+.focus {
+    padding: 70px 130px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.focus-container {
+    gap: 50px;
+    padding: 60px 20px;
+
+}
+
+.focus-title {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.focus-description {
+    font-family: Ag Body Base, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.focus-button {
+    font-family: Raleway, sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.focus-image {
+    width: 900px;
+    height: 390px;
+    border-radius: 48px;
+}
